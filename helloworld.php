@@ -1,8 +1,8 @@
 <?php
 
-	$firstName = "Marii";
-	$lastName = "Viita";
-	// echo trükib välja muutuja väärtuse
+	$firstName="Marii";
+	$lastName="Viita";
+	// echo trÃ¼kib vÃ¤lja muutuja vÃ¤Ã¤rtuse
 	//echo $firstName;
 	//echo $lastName;
 	
@@ -10,46 +10,38 @@
 	
 ?>
 
-
 <br>
 
 <?php
 
-	$age = 5;
+	$age=5;
 	
-	if ($age < 18) {
-		
-		//kui vastus on tõene (true)
+	if ($age<18) {
+		//kui vastus on tÃµene (true)
 		echo "alaealine";
 		
 	} else {
-		
-		//kui vastus on väärtuse (false)
-		echo "täisealine";
+		//kui vastus on vÃ¤Ã¤r (false)
+		echo "tÃ¤isealine";
 	}
 
 ?>
 
 <br>
 
-
 <?php
 
-
-	for ($i = 0; $i < $age; $i = $i + 1) {
+	for ($i=1; $i<$age; $i=$i+1) {
 		
-		echo $i."palju ";
-		
+		echo $i."palju";	
 	
 	}
-	echo "õnne";
-
-
+		echo "Ãµnne";
 
 ?>
 
 <br>
 <?php
-	echo date("d.l.F.Y.g.i.s");
+	echo date ("d.F,l,Y.G.i.s.A");
 	
 ?>
